@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="main.css">
+        <title>Главная. Отдел БАД.</title>
+    </head>
+
+    <body id="main">
+        <div id="wrap">
+                <header>
+                    <nav>
+                        <ul id="mainNav">
+                            <li>
+                                <a id="mainLink" href="main.html">Отдел БАД</a>
+                            </li>
+                            <li>
+                                <a id="projectLink" href="project_os.html">Проекты</a>
+
+                            </li>
+                            <li>
+                                <a id="jobLink" href="#">Задачи</a>
+                            </li>
+                            <li>
+                                <a id="mailLink" href="#">Письма</a>
+                            </li>
+                            <li>
+                                <a id="planLink" href="#">План</a>
+                            </li>
+                            <li>
+                                <a id="anLink" href="#">Авторский надзор</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div id="sidebarHeader">
+                        <div class="seach">
+                            <a href="/seach">Поиск</a>
+                        </div>
+                        <div class="unlogin">
+                            <a href="/unlogin">Выход</a>
+                        </div>
+                    </div>
+                </header>
+
+                <div id="userInfo" class="button user">
+                    Пользователь:<span id="userName">Луферов А.Н.</span>
+                </div>
+
+                <div class="tableGroup">
+                    <div id="currentProject">
+                        <table class="dataTable">
+                            <caption>
+                                <div class="button">
+                                    Добавить...
+                                </div>
+                                <div class="tableCaption">Текущие проекты</div>
+                            </caption>
+                            <colgroup>
+                                <col id="prNumCurPr" class="tableNum">
+                                <col id="prNameCurPr">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="canSorted sortedDown">Проект<div><!-- empty block for arrow location--></div></th>
+                                    <th scope="col">Наименование</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="project/1_2014">1/2014</a></td>
+                                    <td><a href="project/1_2014">Реконструкция улицы Я.Купалы в г.Бресте</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="project/101_2013">101/2013</a></td>
+                                    <td><a href="project/101_2013">Строительстова автомобильной дороги км.1,000 - км5.350</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="myTasks">
+                        <table class="dataTable">
+                            <caption>
+                                <div class="button">
+                                    Добавить...
+                                </div>
+                                <div class="tableCaption">Мои задачи</div>
+                            </caption>
+                            <colgroup>
+                                <col id="prNumMyTask" class="tableNum">
+                                <col id="prNameMyTask">
+                                <col id="prDateMyTask" class="tableDate">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="canSorted">Проект<div><!-- empty block for arrow location--></div></th>
+                                    <th scope="col">Задача</th>
+                                    <th scope="col" class="canSorted sortedUp">Срок<div><!-- empty block for arrow location--></div></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="task/luferov_a_n/1_2014/4g5jg7vb45">1/2014</a></td>
+                                    <td><a href="task/luferov_a_n/1_2014/4g5jg7vb45">Построить продольный профиль</a></td>
+                                    <td>01.02.2014</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="task/luferov_a_n/1_2014/mj6re6de32">1/2014</a></td>
+                                    <td><a href="task/luferov_a_n/1_2014/mj6re6de32">Выполнить вертикальную планировку</a></td>
+                                    <td>11.02.2014</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="task/luferov_a_n/21_2014/df56t7l3a1">21/2014</a></td>
+                                    <td><a href="task/luferov_a_n/21_2014/df56t7l3a1">Позвонить в экспертизу</a></td>
+                                    <td>12.02.2014</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div><!-- tableGroup -->
+                <div class="tableGroup">
+                    <div id="expertProject">
+                        <table class="dataTable">
+                            <caption>
+                                <div class="button">
+                                    Добавить...
+                                </div>
+                                <div class="tableCaption">Проекты на экспертизе</div>
+                            </caption>
+                            <colgroup>
+                                <col id="prNumExPr" class="tableNum">
+                                <col id="prNameExPr">
+                                <col id="prDateExPr" class="tableDate">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="canSorted sortedUp">Проект<div><!-- empty block for arrow location--></div></th>
+                                    <th scope="col">Наименование</th>
+                                    <th scope="col" class="canSorted">Дата<div><!-- empty block for arrow location--></div></th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="project/expertiza/91_2013">91/2013</a></td>
+                                    <td><a href="project/expertiza/91_2013">Продолжение ул.Гагарина в г.Бресте</a></td>
+                                    <td>01.12.2013</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="project/expertiza/25_2013">25/2013</a></td>
+                                    <td><a href="project/expertiza/25_2013">Устройство искусственной неровности поперек дороги</a></td>
+                                    <td>11.12.2013</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="prTasks">
+                        <table class="dataTable">
+                            <caption>
+                                <div class="button">
+                                    Добавить...
+                                </div>
+                                <div class="selectBox">
+                                <select id="prDDList" class="ddList">
+                                    <option value="1/2014">1/2014</option>
+                                    <option value="91/2013">91/2013</option>
+                                    <option value="34/2013">34/2013</option>
+                                    <option value="25/2013">25/2013</option>
+                                </select>
+                                </div>
+                                <div class="tableCaption">Задачи по проекту</div>
+                            </caption>
+                            <colgroup>
+                                <col id="prNumPrTask" class="tableNum">
+                                <col id="prNamePrTask">
+                                <col id="prDatePrTask" class="tableDate">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="canSorted">Проект<div><!-- empty block for arrow location--></div></th>
+                                    <th scope="col" class="canSorted">[Исполнитель] Задача<div><!-- empty block for arrow location--></div></th>
+                                    <th scope="col" class="canSorted sortedUp">Срок<div><!-- empty block for arrow location--></div></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="task/ivanov_t_s/1_2014/mjhre6de32">1/2014</a></td>
+                                    <td><a href="task/ivanov_t_s/1_2014/mjhre6de32">[Иванов] Построить продольный профиль</a></td>
+                                    <td>01.02.2014</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="task/ivanov_t_s/1_2014/mjhfg52">1/2014</a></td>
+                                    <td><a href="task/ivanov_t_s/1_2014/mjhfg52">[Иванов] Выполнить вертикальную планировку</a></td>
+                                    <td>11.02.2014</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="task/petrov_v_z/1_2014/mjhfg52">21/2014</a></td>
+                                    <td><a href="task/petrov_v_z/1_2014/mjhfg52">[Петров] В плане трассировать дождевую канализ...</a></td>
+                                    <td>12.02.2014</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div><!-- tableGroup -->
+                <div id="push"><!-- empty block for push footer--></div>
+            </div><!-- wrap -->
+            <footer>
+                <nav>
+                    <div id="logo">
+                        <a href="http://bdp.by">Брестдорпроект</a>
+                    </div>
+                    <ul id="footerNav">
+                        <li>
+                            <a href="#">Справка</a>
+                        </li>
+                        <li>
+                            <a href="#">Список организаций</a>
+                        </li>
+                        <li>
+                            <a href="#">Телефонный справочник</a>
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
+    </body>
+</html>
