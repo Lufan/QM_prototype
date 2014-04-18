@@ -863,3 +863,13 @@ footer {
 	margin-top: -15px;
 }
 
+tr .warning {
+    background: rgb(255,207,207) url(vLine_expire.png) repeat-x;
+    color: black;
+}
+
+tr .current {
+    background: rgb(255,254,204) url(vLine_current.png) repeat-x;
+    color: black;
+}
+
