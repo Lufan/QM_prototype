@@ -476,6 +476,14 @@ footer {
     background: #a0a0a0 url(selectArrowDown.png) no-repeat center right;
 }
 
+.largeS {
+	width: 22em;
+}
+
+.largeB {
+    max-width: 20em;
+}
+
 .selectBox:active {
     background: #a0a0a0 url(selectArrowDown_w.png) no-repeat center right;
 }
