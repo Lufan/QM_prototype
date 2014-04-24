@@ -881,3 +881,8 @@ tr .current {
     color: black;
 }
 
+tr .future {
+    background: rgb(224,255,204) url(vLine_future.png) repeat-x;
+    color: black;
+}
+
