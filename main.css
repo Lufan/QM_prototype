@@ -488,6 +488,14 @@ footer {
     max-width: 20em;
 }
 
+.midleS {
+    width: 17em;
+}
+
+.midleB {
+    max-width: 15em;
+}
+
 .selectBox:active {
     background: #a0a0a0 url(selectArrowDown_w.png) no-repeat center right;
 }
