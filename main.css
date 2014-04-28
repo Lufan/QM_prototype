@@ -363,6 +363,10 @@ footer {
     width: 7em;
 }
 
+.dataTable .tableNumSM {
+    width: 10em;
+}
+
 .tableCaption {
     float: left;
     padding-top: 8px;
@@ -830,8 +834,7 @@ footer {
     margin-bottom: 10px;
 }
 
-#prNumInput,
-#prYearInput {
+.smallInput {
     width: 9em;
 }
 
