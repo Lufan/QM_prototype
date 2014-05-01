@@ -345,6 +345,21 @@ footer {
     border-right: 1px solid black;
 }
 
+/* kalgr table redefinition */
+.dataTable.kalgr td:last-child {
+    border-right: 0;
+}
+
+.dataTable.kalgr tr:first-child td:last-child {
+    border-bottom-right-radius: 10px;
+    border-right: 1px solid black;
+}
+
+.dataTable.kalgr tr:last-child td:last-child {
+    border-bottom-right-radius: 0px;
+    border-right: 0;
+}
+
 .dataTable caption {
     text-align: right;
     font-size: 1.0em;
@@ -499,6 +514,12 @@ footer {
 .selectBox:active {
     background: #a0a0a0 url(selectArrowDown_w.png) no-repeat center right;
 }
+
+td.container {
+	position: relative;
+	padding: 0px;
+}
+
 /*
  * END Table styles
  */
@@ -846,6 +867,15 @@ footer {
     width: 9em;
 }
 
+.smallInput2x {
+    width: 5.2em;
+}
+
+.centerText {
+    width: 100%;
+    text-align: center;
+}
+
 #prTitleInput {
     height: 4em;
     width: 100%;
@@ -880,6 +910,48 @@ footer {
  */
 #topTable {
 	margin-top: -15px;
+}
+
+.container #tableContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	overflow-x: auto;
+	/*background-color: rgb(255,254,204);*/
+	border-bottom-right-radius: 10px;
+}
+
+.container #tableContainer.overflow {
+	margin-bottom: -16px;
+}
+
+#tableContainer table {
+	position: absolute;
+	width: 100%;
+	height : auto !important;  
+    height : 100%;            
+    min-height : 100%;
+}
+
+#tableContainer table td:first-child
+{
+	border-left: 0;
+}
+
+.kalgrNum {
+	min-width: 5em;
+}
+
+#tableContainer table td:last-child
+{
+	border-right: 0;
+}
+
+#tableContainer table tr:last-child td
+{
+	border-bottom: 0;
 }
 
 tr .warning {
