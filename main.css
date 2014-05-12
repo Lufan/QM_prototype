@@ -924,7 +924,7 @@ td.container {
 }
 
 .container #tableContainer.overflow {
-	margin-bottom: -16px;
+	margin-bottom: -18px;
 }
 
 #tableContainer table {
@@ -942,6 +942,18 @@ td.container {
 
 .kalgrNum {
 	min-width: 5em;
+}
+
+.kalgrNum.h48 {
+	height: 48px;
+}
+
+.kalgrNum.h16 {
+	height: 16px;
+}
+
+.kalgrNum.set {
+	background-color: rgb(224,255,204);
 }
 
 #tableContainer table td:last-child
